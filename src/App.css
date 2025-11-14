@@ -5,4 +5,9 @@
   --font-inter: "Inter";
   --font-pacifico: "Pacifico";
   --color-cta: #56a055;
+  --color-section: #13191f;
+}
+
+* {
+  box-sizing: border-box;
 }
