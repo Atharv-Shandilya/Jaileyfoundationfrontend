@@ -5,7 +5,7 @@ import ScrollImage from "../assets/scroll-mouse.png";
 export default () => {
   return (
     <>
-      <article className="bg-section px-[60px] flex items-center max-w-[1300px] mx-auto rounded-b-2xl">
+      <article className="bg-primary px-[60px] flex items-center max-w-[1300px] mx-auto rounded-b-2xl">
         <section>
           <h2 className="text-white text-[32px] mb-[22px] font-semibold leading-[150%]">
             Knowledge is in the classroom. Opportunity is in the field. We

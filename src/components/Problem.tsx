@@ -4,11 +4,11 @@ export default () => {
   return (
     <article className="mb-4 max-w-[1300px] mx-auto flex mt-[88px]">
       <section className="w-[55%]">
-        <h2 className="font-medium text-sm mb-4">The Problem</h2>
-        <h3 className="text-[28px] font-medium mb-[26px]">
+        <h2 className="font-medium text-sm mb-4 text-primary">The Problem</h2>
+        <h3 className="text-[28px] font-medium mb-[26px] text-primary">
           The Workforce Skill Crisis in Bihar
         </h3>
-        <p className="text-black/50 mb-[50px]">
+        <p className="text-primary/50 mb-[50px]">
           Bihar's greatest strength is its young people, but a skills gap holds
           them back. Our educated youth graduate with degrees but lack the
           hands-on experience to start a career. At the same time, our rural
@@ -30,7 +30,7 @@ export default () => {
           <ProblemCard
             percentage="35%."
             problem="Bihar has the second-highest rate of out-migration in India"
-            source="Economic Survey of Bihar, 2024-25 / NITI Aayog Reports."
+            source="Economic Sur`vey of Bihar, 2024-25 / NITI Aayog Reports."
           />
           <ProblemCard
             percentage="90%."

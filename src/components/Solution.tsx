@@ -2,7 +2,7 @@ import SolutionImage from "../assets/Solution-Image.png";
 
 export default () => {
   return (
-    <article className="bg-section text-white  py-[106px] px-[200px] mt-[193px]">
+    <article className="bg-primary text-white  py-[106px] px-[200px] mt-[193px]">
       <section className="text-center">
         <h3 className="text-sm font-medium mb-3">The solution</h3>
         <h4 className="text-[28px] font-medium mb-2">
