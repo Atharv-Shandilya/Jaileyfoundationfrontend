@@ -6,7 +6,7 @@ import tracktorSvg from "../assets/tracktor.svg";
 
 export default () => {
   return (
-    <article>
+    <article className=" p-4">
       <section className="text-center mt-[113px]">
         <h3 className="font-medium mb-4 text-sm">How It Works?</h3>
         <h4 className="font-medium mb-3 text-[28px]">Our Unique Approach</h4>
@@ -15,7 +15,7 @@ export default () => {
           sustainable careers.
         </p>
       </section>
-      <section className="flex flex-col items-center mt-[97px]">
+      <section className="flex flex-col items-center mt-15 md:mt-[97px] p-4">
         <WorksCard
           no={1}
           img={breifcaseSvg}
