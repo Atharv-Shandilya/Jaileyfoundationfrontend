@@ -6,7 +6,7 @@ import tracktorSvg from "../assets/tracktor.svg";
 
 export default () => {
   return (
-    <article className=" p-4">
+    <article id="how-it-works" className=" p-4">
       <section className="text-center mt-[113px]">
         <h3 className="font-medium mb-4 text-sm">How It Works?</h3>
         <h4 className="font-medium mb-3 text-[28px]">Our Unique Approach</h4>
@@ -47,4 +47,3 @@ export default () => {
     </article>
   );
 };
-1;

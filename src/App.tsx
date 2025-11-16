@@ -1,4 +1,6 @@
 import "./App.css";
+import EnrollNow from "./components/EnrollNow";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Impact from "./components/Impact";
@@ -9,13 +11,15 @@ import Works from "./components/Works";
 function App() {
   return (
     <>
-      <main className=" font-inter ">
-        {/* <Header /> */}
+      <main className="font-inter scroll-smooth">
+        <Header />
         <Hero />
-        {/* <Problem />
+        <Problem />
         <Solution />
         <Works />
-        <Impact /> */}
+        <Impact />
+        <EnrollNow />
+        <Footer />
       </main>
     </>
   );

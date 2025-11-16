@@ -3,7 +3,7 @@ import ImpactCard from "./ImpactCard";
 
 export default () => {
   return (
-    <article className="bg-primary text-white flex flex-col items-center py-[133px] p-6">
+    <article id="about" className="bg-primary text-white flex flex-col items-center py-[133px] p-6">
       <section className="flex items-center mb-[92px] flex-col-reverse md:flex-row">
         <div className="max-w-[829px] md:mr-[88px]">
           <h3 className="text-sm mb-4 font-medium">

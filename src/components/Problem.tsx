@@ -3,7 +3,7 @@ import IndiaImage from "../assets/India.png";
 export default () => {
   return (
     <article className=" p-3 mb-4 max-w-[1300px] mx-auto flex mt-[88px] ">
-      <section className="lg:w-[55%]">
+      <section id="problem" className="lg:w-[55%]">
         <h2 className="font-medium text-sm mb-4 text-primary">The Problem</h2>
         <h3 className="text-[28px] font-medium mb-[26px] text-primary">
           The Workforce Skill Crisis in Bihar
