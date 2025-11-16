@@ -5,9 +5,9 @@ import ScrollImage from "../assets/scroll-mouse.png";
 export default () => {
   return (
     <>
-      <article className="bg-primary px-[60px] flex items-center max-w-[1300px] mx-auto rounded-b-2xl">
-        <section>
-          <h2 className="text-white text-[32px] mb-[22px] font-semibold leading-[150%]">
+      <article className="bg-primary px-6 md:px-[60px] flex flex-col-reverse lg:flex-row items-center max-w-[1300px] mx-auto rounded-b-2xl pb-15 text-center lg:text-left">
+        <section className="flex flex-col items-center lg:block">
+          <h2 className="text-white text-2xl md:text-[32px] mb-[22px] font-semibold leading-[150%] max-w-[600px] md:max-w-full">
             Knowledge is in the classroom. Opportunity is in the field. We
             bridge the distance.
           </h2>
@@ -16,18 +16,22 @@ export default () => {
             educated youth gain essential hands-on experience, and rural
             communities develop the skills for a sustainable future.
           </p>
-          <div className="flex gap-x-5">
+          <div className="flex gap-x-5 flex-row">
             <EnrollNow />
             <a
               href="#"
-              className=" bg-white rounded-md py-3 px-10  inline-block"
+              className=" bg-white rounded-md py-3 px-4 md:px-10 md:text-base text-sm flex items-center "
             >
               Learn More
             </a>
           </div>
         </section>
 
-        <img src={HeroImage} className="mt-[65px]" alt="Hero Image" />
+        <img
+          src={HeroImage}
+          className="mt-[65px] w-[400px] lg:w-full mb-8"
+          alt="Hero Image"
+        />
       </article>
 
       <div className="flex justify-center mt-[94px]">

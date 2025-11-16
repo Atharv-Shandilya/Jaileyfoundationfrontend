@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <main className=" font-inter ">
-        <Header />
+        {/* <Header /> */}
         <Hero />
-        <Problem />
+        {/* <Problem />
         <Solution />
         <Works />
-        <Impact />
+        <Impact /> */}
       </main>
     </>
   );
