@@ -1,8 +1,11 @@
-import EnrollNow from "./EnrollNow";
+import { useState } from "react";
+import EnrollmentModal from "./EnrollmentModal";
 import HeroImage from "../assets/hero-image.png";
 import ScrollImage from "../assets/scroll-mouse.png";
 
 export default () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <>
       <article className="bg-primary px-6 md:px-[60px] flex flex-col-reverse lg:flex-row items-center max-w-[1300px] mx-auto rounded-b-2xl pb-15 text-center lg:text-left">
@@ -13,13 +16,19 @@ export default () => {
           </h2>
           <p className="text-white/50 mb-[46px] max-w-[580px] leading-[125%]">
             Our innovative internship program builds a powerful ecosystem where
-            educated youth gain essential hands-on experience, and rural
+            educated youth gain essential hands-on experience, and working
             communities develop the skills for a sustainable future.
           </p>
           <div className="flex gap-x-5 flex-row">
-            <EnrollNow />
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="bg-cta rounded-md py-3 px-4 md:px-10 text-white block text-center"
+            >
+              Enroll Now
+            </button>
+
             <a
-              href="#"
+              href="#problem"
               className=" bg-white rounded-md py-3 px-4 md:px-10 md:text-base text-sm flex items-center "
             >
               Learn More
@@ -44,6 +53,8 @@ export default () => {
           <p className="text-sm">Scroll Down</p>
         </section>
       </div>
+
+      <EnrollmentModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   );
 };

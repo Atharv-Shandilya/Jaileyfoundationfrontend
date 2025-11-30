@@ -8,3 +8,7 @@
   --color-primary: #13191f;
   --breakpoint-xs: 480px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
