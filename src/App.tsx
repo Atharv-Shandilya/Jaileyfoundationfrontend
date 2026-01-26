@@ -1,5 +1,6 @@
 import "./App.css";
 import EnrollNow from "./components/EnrollNow";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -18,6 +19,7 @@ function App() {
         <Solution />
         <Works />
         <Impact />
+        <FAQ/>
         <EnrollNow />
         <Footer />
       </main>

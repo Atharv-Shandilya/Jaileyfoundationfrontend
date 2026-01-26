@@ -20,7 +20,9 @@ export default () => {
             We'll Help You Get Started
           </h2>
           <p className="text-white text-base md:text-lg mb-6 md:mb-8 max-w-4xl mx-auto">
-            Ready to turn your knowledge into a thriving career? Our internship program offers hands-on experience, real-world skills, and a direct path to employment. Don't just get a degree, build a future.
+            Ready to turn your knowledge into a thriving career? Our internship
+            program offers hands-on experience, real-world skills, and a direct
+            path to employment. Don't just get a degree, build a future.
           </p>
           <button
             onClick={() => setIsModalOpen(true)}
