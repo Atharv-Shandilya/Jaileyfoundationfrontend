@@ -2,7 +2,7 @@ import Questions from "./Questions";
 
 export default () => {
   return (
-    <article className="flex flex-row px-[119px] gap-x-[140px] py-32">
+    <article className="flex flex-row px-[119px] gap-x-[140px] py-[262px]">
       <article className=" w-[268px]">
         <h3 className="text-sm font-medium">FAQ</h3>
         <h4 className="font-semibold text-3xl italic mb-6">

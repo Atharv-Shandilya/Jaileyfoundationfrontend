@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Impact from "./components/Impact";
 import Problem from "./components/Problem";
+import SocialProof from "./components/SocialProof";
 import Solution from "./components/Solution";
 import Works from "./components/Works";
 
@@ -19,7 +20,8 @@ function App() {
         <Solution />
         <Works />
         <Impact />
-        <FAQ/>
+        <SocialProof />
+        <FAQ />
         <EnrollNow />
         <Footer />
       </main>
