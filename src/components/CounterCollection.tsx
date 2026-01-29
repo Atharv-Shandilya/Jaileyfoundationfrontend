@@ -6,7 +6,7 @@ export default () => {
   const sectionRef = useRef(null);
   return (
     <article
-      className=" py-21"
+      className=" py-21 hidden xl:block"
       style={{
         backgroundImage: `url(${bgVector})`,
       }}

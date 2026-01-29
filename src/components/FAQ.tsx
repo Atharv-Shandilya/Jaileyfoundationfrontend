@@ -2,8 +2,8 @@ import Questions from "./Questions";
 
 export default () => {
   return (
-    <article className="flex flex-row px-[119px] gap-x-[140px] py-[262px]">
-      <article className=" w-[268px]">
+    <article className="flex flex-col lg:flex-row px-[119px] gap-y-[50px] lg:gap-y-0 xl:gap-x-[140px]  py-[262px]">
+      <article className=" text-center lg:w-[268px]">
         <h3 className="text-sm font-medium">FAQ</h3>
         <h4 className="font-semibold text-3xl italic mb-6">
           Frequently <br /> Asked <br /> Questions About{" "}
