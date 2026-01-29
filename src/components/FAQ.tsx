@@ -1,24 +1,37 @@
+import { useState } from "react";
+import EnrollmentModal from "./EnrollmentModal";
 import Questions from "./Questions";
 
 export default () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
-    <article className="flex flex-col lg:flex-row px-[119px] gap-y-[50px] lg:gap-y-0 xl:gap-x-[140px]  py-[262px]">
-      <article className=" text-center lg:w-[268px]">
-        <h3 className="text-sm font-medium">FAQ</h3>
-        <h4 className="font-semibold text-3xl italic mb-6">
-          Frequently <br /> Asked <br /> Questions About{" "}
-          <span className=" text-cta">Our Program</span>
-        </h4>
-        <button className=" bg-cta text-white px-10 py-2 rounded-md">
-          Enroll Now
-        </button>
+    <>
+      <article className="flex flex-col lg:flex-row px-[119px] gap-y-[50px] lg:gap-y-0 xl:gap-x-[140px]  py-[262px]">
+        <article className=" text-center lg:w-[268px]">
+          <h3 className="text-sm font-medium">FAQ</h3>
+          <h4 className="font-semibold text-3xl italic mb-6">
+            Frequently <br /> Asked <br /> Questions About{" "}
+            <span className=" text-cta">Our Program</span>
+          </h4>
+          <button
+            className=" bg-cta text-white px-10 py-2 rounded-md cursor-pointer"
+            onClick={() => setIsModalOpen(true)}
+          >
+            Enroll Now
+          </button>
+        </article>
+        <article className="flex-1 p-4">
+          <Questions
+            problem="What programs does Jalei Foundation offer Students"
+            answer="We provide internships, rural workforce training, Eco-Village Learning Hub, and Career Launchpad programs for skill-building and employability."
+          />
+        </article>
       </article>
-      <article className="flex-1 p-4">
-        <Questions
-          problem="What programs does Jalei Foundation offer Students"
-          answer="We provide internships, rural workforce training, Eco-Village Learning Hub, and Career Launchpad programs for skill-building and employability."
-        />
-      </article>
-    </article>
+
+      <EnrollmentModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
+    </>
   );
 };
