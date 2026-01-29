@@ -1,4 +1,5 @@
 import "./App.css";
+import CounterCollection from "./components/CounterCollection";
 import EnrollNow from "./components/EnrollNow";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
@@ -19,7 +20,8 @@ function App() {
         <Problem />
         <Solution />
         <Works />
-        <Impact />
+        {/* <Impact /> */}
+        <CounterCollection />
         <SocialProof />
         <FAQ />
         <EnrollNow />

@@ -54,7 +54,10 @@ export default () => {
         </section>
       </div>
 
-      <EnrollmentModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <EnrollmentModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </>
   );
 };
