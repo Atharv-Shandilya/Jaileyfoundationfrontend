@@ -35,7 +35,7 @@ export default () => {
   return (
     <article
       id="solution"
-      className="bg-primary text-white  xl:px-[200px] py-[106px] mt-[127px]"
+      className="bg-primary text-white  px-4 lg:px-[200px] py-[106px] mt-[127px]"
     >
       <section className="text-center sm:mb-10">
         <h2 className="text-sm font-medium mb-3">The solution</h2>
@@ -47,7 +47,7 @@ export default () => {
           a powerful cycle of opportunity.
         </p>
       </section>
-      <article className="grid grid-cols-2 gap-x-[105px] gap-y-[81px]">
+      <article className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-[50px] gap-y-8 sm:gap-y-[42px] xl:gap-x-[105px] xl:gap-y-[81px] mt-21">
         {programs.map((program) => (
           <SolutionCard
             title={program.title}
